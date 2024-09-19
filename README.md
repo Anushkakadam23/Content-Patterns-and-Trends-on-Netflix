@@ -9,7 +9,7 @@ This project involves an in-depth analysis of Netflix’s content library using 
 --Examine the Distribution of Content Types (Movies vs. TV Shows):
 Conduct a detailed analysis to assess the balance between movies and TV shows on Netflix, providing insights into platform preferences and content consumption patterns.
 --Identify Predominant Ratings for Movies and TV Shows:
-Determine the most prevalent content ratings for both movies and TV shows, revealing insights into audience demographics and content suitability for various viewer segments.
+Determine the most prevalent content ratings for both movies and TV shows, revealing insights into audience demographics and content suitability for various viewer segments. 
 --Analyze Content by Release Year, Country of Origin, and Duration:
 Perform a comprehensive analysis of content trends by year of release, geographical production origins, and duration, offering strategic insights into temporal and regional shifts in content availability.
 --Categorize and Explore Content Based on Specific Criteria and Keywords:

@@ -1,0 +1,62 @@
+Schema Design:
+The Netflix dataset is structured into a schema that includes several key attributes:
+show_id: Unique identifier for each content item.
+type: Whether the content is a Movie or a TV Show.
+title: The name of the content.
+director: The director(s) associated with the content.
+casts: The actors appearing in the content.
+country: The country of origin of the content.
+date_added: The date the content was added to the platform.
+release_year: The year the content was released.
+rating: The content’s rating, such as PG-13, R, etc.
+duration: The length of the content (in minutes for Movies, in seasons for TV Shows).
+listed_in: Categories or genres in which the content is classified.
+description: A brief summary of the content.
+
+
+Key Queries & Analytical Insights:
+1. Count the Number of Movies vs. TV Shows:
+This query distinguishes the proportion of Movies to TV Shows on the platform, helping Netflix understand user preferences and adjust their content production accordingly.
+
+2. Most Common Ratings for Movies and TV Shows:
+Using window functions, this analysis identifies the most frequent content ratings for each type, offering insight into audience segmentation by content rating.
+
+3. Content Released in a Specific Year (e.g., 2020):
+This query filters content by release year, allowing Netflix to analyze content production volumes over time, assess trends, and ensure a diverse range of releases.
+
+4. Top 5 Countries Producing the Most Content:
+The platform's globalization strategy is examined by identifying which countries produce the most content, aiding regional targeting for content investments.
+
+5. Identify the Longest Movie:
+This query reveals the longest-running movie on Netflix, which can highlight content that caters to audiences looking for longer-form content.
+
+6. Content Added in the Last 5 Years:
+By identifying content added recently, Netflix can assess the freshness of its library and analyze how the volume of new content impacts subscriber growth.
+
+7. Movies/TV Shows by Specific Directors (e.g., Rajiv Chilaka):
+This query helps find content from prominent directors, supporting partnerships or promotions for directors with successful track records.
+
+8. TV Shows with More than 5 Seasons:
+By filtering TV Shows with a high number of seasons, this query highlights long-term successful content that retains viewers over multiple years.
+
+9. Content Items by Genre:
+Analyzing the distribution of content across genres, Netflix can optimize content delivery based on popular genres, creating a more personalized viewing experience for users.
+
+10. Content Release Trends by India:
+This query calculates the average number of content releases by India, helping Netflix understand regional content trends and production volumes, and guiding future investment in Indian content.
+
+11. List All Documentaries:
+The query provides a list of all documentaries on the platform, which Netflix can use to cater to niche audiences interested in factual content.
+
+12. Find Content Without a Director:
+Content missing certain metadata (such as the director) can be identified for data quality improvements or other business purposes.
+
+13. Movies Featuring Specific Actors (e.g., Salman Khan) in the Last 10 Years:
+This query highlights the involvement of high-profile actors over time, helping Netflix boost engagement with star-driven promotions.
+
+14. Top 10 Actors in Indian Movies:
+Netflix can use this analysis to identify the most frequent actors in Indian content, providing insights for regional marketing and content strategy.
+
+15. Categorization of Content Based on Keywords (e.g., 'kill', 'violence'):
+By categorizing content as 'Bad' or 'Good' based on specific keywords, Netflix can monitor the availability of sensitive content, manage its brand reputation, and ensure compliance with content regulations.
+
